@@ -1,6 +1,9 @@
 import styled from "styled-components";
 
 export const PageArea = styled.div`
+  h1 {
+    margin: 10px;
+  }
   form {
     background-color: #fff;
     border-radius: 3px;
@@ -36,7 +39,26 @@ export const PageArea = styled.div`
             color: #333;
           }
         }
+        select {
+          width: 100%;
+          font-size: 14px;
+          padding: 5px;
+          border: 1px solid #ddd;
+          border-radius: 3px;
+          outline: 0;
+          transition: all ease 0.4s;
 
+          &:focus {
+            border: 1px solid #333;
+            color: #333;
+          }
+        }
+      }
+      .area--button {
+        flex: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
         button {
           background-color: #0089ff;
           border: 0;
@@ -45,6 +67,7 @@ export const PageArea = styled.div`
           border-radius: 4px;
           color: #fff;
           font-size: 15px;
+          margin: 5px;
           cursor: pointer;
 
           &:hover {
@@ -55,6 +78,7 @@ export const PageArea = styled.div`
     }
   }
   @media (max-width: 600px) {
+    margin: 10px;
     form {
       .area {
         flex-direction: column;
@@ -63,23 +87,35 @@ export const PageArea = styled.div`
           width: 100%;
           text-align: left;
           margin-bottom: 10px;
-          font-size: 20px!important;
+          font-size: 25px;
         }
 
         .area--input {
           width: 100%;
           input {
-            font-size: 20px!important;
+            font-size: 20px !important;
           }
+        }
+        .area--button {
+          width: 100%;
           button {
             width: 100%;
-            padding: 10px;
+            height: 90px;
+            font-size: 20px;
           }
         }
       }
-      .area--checkbox{
-        flex-direction: row;
-      }
     }
+  }
+`;
+
+export const AdList = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  .itemAd {
+    width: 25%;
+  }
+  @media (max-width: 600px) {
+    width: 50%;
   }
 `;

@@ -126,7 +126,7 @@ const Page = () => {
                     </label>
                     <label className="area">
                         <div className="area--title"></div>
-                        <div className="area--input">
+                        <div className="area--button">
                             <button disabled={disabled}>Fazer Cadastro</button>
                         </div>
                     </label>

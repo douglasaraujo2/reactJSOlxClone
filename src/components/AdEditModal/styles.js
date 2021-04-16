@@ -1,28 +1,25 @@
 import styled from "styled-components";
 
 export const PageArea = styled.div`
+  
   form {
-    background-color: #fff;
-    border-radius: 3px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
     padding: 10px;
-    box-shadow: 0px 0px 3px #999;
     .area {
-      display: flex;
-      align-items: center;
+      width: 100%;
       padding: 10px;
-      max-width: 500px;
-
       .area--title {
-        width: 200px;
-        text-align: right;
         padding-right: 20px;
         font-weight: bold;
         font-size: 14px;
       }
       .area--input {
-        flex: 1;
-
-        input:not([type="checkbox"]) {
+        /* width: 100%; */
+        input:not([type="checkbox"]),
+        select,
+        textarea {
           width: 100%;
           font-size: 14px;
           padding: 5px;
@@ -35,6 +32,15 @@ export const PageArea = styled.div`
             border: 1px solid #333;
             color: #333;
           }
+        }
+
+        input[type="checkbox"] {
+          background-color: transparent;
+        }
+
+        textarea {
+          height: 80px;
+          resize: none;
         }
 
         button {
@@ -51,34 +57,6 @@ export const PageArea = styled.div`
             background-color: #006fce;
           }
         }
-      }
-    }
-  }
-  @media (max-width: 600px) {
-    form {
-      .area {
-        flex-direction: column;
-
-        .area--title {
-          width: 100%;
-          text-align: left;
-          margin-bottom: 10px;
-          font-size: 20px!important;
-        }
-
-        .area--input {
-          width: 100%;
-          input {
-            font-size: 20px!important;
-          }
-          button {
-            width: 100%;
-            padding: 10px;
-          }
-        }
-      }
-      .area--checkbox{
-        flex-direction: row;
       }
     }
   }

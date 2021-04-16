@@ -57,28 +57,51 @@ export const HeaderArea = styled.div`
       margin-left: 20px;
       margin-right: 20px;
 
-      a, button {
+      a,
+      button {
         border: 0;
         background: none;
-        cursor:pointer;
+        cursor: pointer;
         color: #000;
         font-size: 14px;
         text-decoration: none;
-        outline:0;
+        outline: 0;
         &:hover {
           color: #999;
-          border: 1px solid rgba(0,0,0,0.4);
+          border: 1px solid rgba(0, 0, 0, 0.4);
         }
-        
+
         &.button {
-          background-color: #ff8100!important;
+          background-color: #ff8100 !important;
           border-radius: 4px;
           color: #fff;
           padding: 5px 10px;
         }
-        &.button:hover{
-            background-color: #e57706;
+        &.button:hover {
+          background-color: #e57706;
         }
+      }
+    }
+  }
+
+  @media (max-width: 600px) {
+    height: auto;
+    .container {
+      flex-direction: column;
+    }
+    .logo {
+      justify-content: center;
+      margin: 20px 0;
+    }
+    nav ul {
+      flex-direction: column;
+      height: auto;
+    }
+    nav li {
+      margin: 10px 20px;
+      a,
+      button {
+        font-size: 25px;
       }
     }
   }

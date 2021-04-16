@@ -44,7 +44,7 @@ const Page = () => {
             <div className="area--title">E-mail</div>
             <div className="area--input">
               <input
-                type="email"
+                type="text"
                 disabled={disabled}
                 value={email}
                 required
@@ -64,7 +64,7 @@ const Page = () => {
               />
             </div>
           </label>
-          <label className="area">
+          <label className="area area--checkbox">
             <div className="area--title">Lembrar senha</div>
             <div className="area--input">
               <input

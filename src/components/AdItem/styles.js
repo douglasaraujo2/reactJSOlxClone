@@ -24,5 +24,9 @@ export const Item = styled.div`
             font-weight: bold;
         }
 
+        .itemImage{
+            min-height: 215px;
+        }
+
     }
 `;
