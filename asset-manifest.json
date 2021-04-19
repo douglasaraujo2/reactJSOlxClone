@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/reactJSOlxClone/static/css/main.27539d10.chunk.css",
+    "main.js": "/reactJSOlxClone/static/js/main.6274485b.chunk.js",
+    "main.js.map": "/reactJSOlxClone/static/js/main.6274485b.chunk.js.map",
+    "runtime-main.js": "/reactJSOlxClone/static/js/runtime-main.955c2cbf.js",
+    "runtime-main.js.map": "/reactJSOlxClone/static/js/runtime-main.955c2cbf.js.map",
+    "static/css/2.b57b7cfd.chunk.css": "/reactJSOlxClone/static/css/2.b57b7cfd.chunk.css",
+    "static/js/2.3e1204e5.chunk.js": "/reactJSOlxClone/static/js/2.3e1204e5.chunk.js",
+    "static/js/2.3e1204e5.chunk.js.map": "/reactJSOlxClone/static/js/2.3e1204e5.chunk.js.map",
+    "index.html": "/reactJSOlxClone/index.html",
+    "static/css/2.b57b7cfd.chunk.css.map": "/reactJSOlxClone/static/css/2.b57b7cfd.chunk.css.map",
+    "static/css/main.27539d10.chunk.css.map": "/reactJSOlxClone/static/css/main.27539d10.chunk.css.map",
+    "static/js/2.3e1204e5.chunk.js.LICENSE.txt": "/reactJSOlxClone/static/js/2.3e1204e5.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.955c2cbf.js",
+    "static/css/2.b57b7cfd.chunk.css",
+    "static/js/2.3e1204e5.chunk.js",
+    "static/css/main.27539d10.chunk.css",
+    "static/js/main.6274485b.chunk.js"
+  ]
+}
